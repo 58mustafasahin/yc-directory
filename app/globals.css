@@ -91,7 +91,7 @@ layer(base);
 }
 
 @utility tag {
-  @apply bg-secondary px-6 py-3 font-work-sans font-bold rounded-sm uppercase relative tag-tri;
+  @apply bg-secondari px-6 py-3 font-work-sans font-bold rounded-sm uppercase relative tag-tri;
 }
 
 @utility heading {
