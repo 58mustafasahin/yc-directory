@@ -11,6 +11,11 @@
     "prebuild": "npm run typegen",
     "typegen": "sanity schema extract --path=./sanity/extract.json && sanity typegen generate"
   },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom",
+    "next": "$next"
+  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.2",
     "@sanity/client": "7.0.0",
@@ -19,6 +24,7 @@
     "@sanity/types": "3.88.0",
     "@sanity/ui": "2.15.14",
     "@sanity/vision": "3",
+    "@sentry/nextjs": "^9.19.0",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/upgrade": "^4.0.6",
     "@uiw/react-md-editor": "^4.0.6",
