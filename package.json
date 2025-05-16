@@ -17,6 +17,7 @@
     "next": "$next"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.9",
     "@radix-ui/react-slot": "^1.2.2",
     "@sanity/client": "7.0.0",
     "@sanity/icons": "3.7.0",
